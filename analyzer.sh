@@ -9,7 +9,6 @@ if [ ! -s "$1" ]; then
     echo "Error: File is empty."
     exit 1
 fi
-
 STOP_WORDS="the|is|and|a|an|in|to|of|it|that|with|for|on|was|as|at"
 
 echo "--- Top 5 Most Frequent Words ---"
